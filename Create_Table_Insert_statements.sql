@@ -1,29 +1,3 @@
-CREATE TABLE Students (
-    student_id INT PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    date_of_birth DATE,
-    email VARCHAR(100),
-    phone_number VARCHAR(20),
-    address VARCHAR(200)
-);
-
-INSERT INTO Students (student_id, first_name, last_name, date_of_birth, email, phone_number, address)
-VALUES
-
-    (1, 'John', 'Doe', '2000-01-01', 'john.doe@example.com', '555-1234', '123 Main St.'),
-    (2, 'Jane', 'Smith', '2001-02-02', 'jane.smith@example.com', '555-5678', '456 Oak Ave.'),
-    (3, 'Bob', 'Johnson', '1999-03-03', 'bob.johnson@example.com', '555-9012', '789 Maple Rd.'),
-    (4, 'Sarah', 'Lee', '2002-04-04', 'sarah.lee@example.com', '555-2345', '321 Elm St.'),
-    (5, 'Michael', 'Kim', '1998-05-05', 'michael.kim@example.com', '555-6789', '654 Pine Blvd.'),
-    (6, 'Emily', 'Chen', '2003-06-06', 'emily.chen@example.com', '555-3456', '987 Cedar Ln.'),
-    (7, 'David', 'Wong', '2004-07-07', 'david.wong@example.com', '555-7890', '246 Birch Rd.'),
-    (8, 'Maria', 'Garcia', '1997-08-08', 'maria.garcia@example.com', '555-4567', '135 Oak St.'),
-    (9, 'Daniel', 'Martinez', '2000-09-09', 'daniel.martinez@example.com', '555-8901', '468 Maple Ave.'),
-    (10, 'Rachel', 'Brown', '2001-10-10', 'rachel.brown@example.com', '555-1234', '789 Oak Ln.');
-    
-    
-    
 CREATE TABLE Departments (
     department_id INT PRIMARY KEY,
     department_name VARCHAR(50),
